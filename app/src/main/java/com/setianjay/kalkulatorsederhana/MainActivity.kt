@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
 
     // Initialize View
     private fun initView(){
-        edit_value1 = findViewById(R.id.edit_value1)
-        edit_value2 = findViewById(R.id.edit_value2)
-        button_calculator = findViewById(R.id.button_calculator)
-        text_result = findViewById(R.id.text_result)
+        edit_value1 = findViewById(R.id.edt_value1)
+        edit_value2 = findViewById(R.id.edt_value2)
+        button_calculator = findViewById(R.id.btn_count)
+        text_result = findViewById(R.id.txt_result)
     }
 
     // Initialize event
